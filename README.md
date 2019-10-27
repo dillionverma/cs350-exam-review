@@ -96,5 +96,4 @@ This repo was created to collect and share important Operating System concepts f
 
 ## Credits
 
-A big thank you to my Professor __Lesley Istead__ for dedicating her time to teaching this epic course and personally setting all her students up for success. I especially appreciate the initiative to streaming her lectures for all students across all sections.
-
+A big thank you to my Professor __Lesley Istead__ for dedicating her time to teaching this epic course and personally setting all her students up for success. I especially appreciate her initiative and effort to stream her lectures to all students this term.

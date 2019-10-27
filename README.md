@@ -6,7 +6,7 @@ This repo was created to collect and share important Operating System concepts f
 
 ## Study Topics
 
-#### Unit 1: Threads
+#### [Unit 1: Threads](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/threads-1up.pdf)
 
 * Define Thread
 * 5 reasons why use threads?
@@ -34,7 +34,7 @@ This repo was created to collect and share important Operating System concepts f
   * Ready (waiting to run on CPU)
 * Know how to draw 2 thread stacks with context switches between them
 
-#### Unit 2: Syncronization
+#### [Unit 2: Syncronization](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/synchronization-1up.pdf)
 
 * Define Critical Sections
 * Define Race Conditions
@@ -54,7 +54,7 @@ This repo was created to collect and share important Operating System concepts f
   * __Resource Ordering__
 * Volatile keyword and how it works
 
-#### Unit 3: Processes, Kernel, System Calls
+#### [Unit 3: Processes, Kernel, System Calls](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/processes-1up.pdf)
 
 * Define Process
 * Define Kernel
@@ -75,7 +75,7 @@ This repo was created to collect and share important Operating System concepts f
 * Distinguish between user (application) and kernel stack
 * __Know how to draw processes and system calls with details regarding user and kernel stack__
 
-#### Unit 4: Virtual Memory
+#### [Unit 4: Virtual Memory](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/virtualmemory-1up.pdf)
 * Define physical memory
 * Define virtual memory and why we need it
 * Understand address translation and 3 ways to do it

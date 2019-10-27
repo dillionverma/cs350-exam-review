@@ -41,17 +41,17 @@ This repo was created to collect and share important Operating System concepts f
 * Define Mutual Exclusion and how to achieve
 * Define Test-and-Set and atomic operations
 * __4 synchronization primitives__
-  1. __Spinlocks__
-  2. __Blocking Locks__
-  3. __Semaphores__
-     * __Binary Semaphore__
-     * __Counting Semaphore__
-     * __Barrier Semaphore__
-     * What are mesa-style condition variables? How are they different from Hoare style?
+  * __Spinlocks__
+  * __Blocking Locks__
+  * __Semaphores__
+    * __Binary Semaphore__
+    * __Counting Semaphore__
+    * __Barrier Semaphore__
+    * What are mesa-style condition variables? How are they different from Hoare style?
   4. __Condition Variables__
 * Deadlocks and techniques for prevention
-    1. __No Hold and Wait__
-    2. __Resource Ordering__
+  * __No Hold and Wait__
+  * __Resource Ordering__
 * Volatile keyword and how it works
 
 #### Unit 3: Processes, Kernel, System Calls
@@ -68,8 +68,8 @@ This repo was created to collect and share important Operating System concepts f
 * Define Application Binary Interface (ABI)
 * Distinguish between privileged and unprivileged code
 * 2 things which make kernel code execute
-  1. Interrupts
-  2. Exceptions
+  * __Interrupts__
+  * __Exceptions__
 * Define Interrupt Handler
 * Define Exception Handler
 * Distinguish between user (application) and kernel stack
@@ -79,13 +79,13 @@ This repo was created to collect and share important Operating System concepts f
 * Define physical memory
 * Define virtual memory and why we need it
 * Understand address translation and 3 ways to do it
-  1. __Dynamic relocation__
-  2. __Segmentation__
-     1. __Relocation Register + Limit register__
-     2. __Segment table__
-  3. __Paging__
-     1. __Single Level paging__
-     2. __Multi-Level paging__
+  * __Dynamic relocation__
+  * __Segmentation__
+     * __Relocation Register + Limit register__
+     * __Segment table__
+  * __Paging__
+     * __Single Level paging__
+     * __Multi-Level paging__
 * Understand the role of MMU in address translation
 
 ... more to be added soon

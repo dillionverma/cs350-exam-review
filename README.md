@@ -78,6 +78,7 @@ This repo was created to collect and share important Operating System concepts f
 #### [Unit 4: Virtual Memory](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/virtualmemory-1up.pdf)
 * Define physical memory
 * Define virtual memory and why we need it
+* Memory structure, internal/external fragmentation
 * Understand address translation and 3 ways to do it
   * __Dynamic relocation__
   * __Segmentation__
@@ -91,6 +92,7 @@ This repo was created to collect and share important Operating System concepts f
 ... more to be added soon
 
 ## Extra Review
+* [Recent Midterms] See piazza.
 * [Past Midterm Exams](https://www.student.cs.uwaterloo.ca/~cs350/common/old-exams/)
 * [Review Questions Compiled by W10 Students](https://www.student.cs.uwaterloo.ca/~cs350/common/review-questions/CS350-course-review.pdf)
 

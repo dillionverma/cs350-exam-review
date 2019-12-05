@@ -88,11 +88,121 @@ This repo was created to collect and share important Operating System concepts f
      * __Single Level paging__
      * __Multi-Level paging__
 * Understand the role of MMU in address translation
+* Define Translation Lookaside Buffer (TLB)
+  * Define __software-managed TLB__
+  * Define __hardware-managed TLB__
+  * Know about what each of the 64 bits in TLB is used for
+* Undestand Virtual Memory implementation in OS/161 and its limitations
+* Be able to translate virtual addresses to physical addresses using OS/161 
+* Define Executable Linking Format (ELF) files and their role
+  * Understand difference between __text segment__ and __data segment__ in OS/161 ELF files
+* Undertand how virtual memory partitioned
+  * User addresses from 0x0 to 0x7FFFFFFF
+  * Kernel addresses from 0x80000000 to 0xFFFFFFFF
+    * kseg0 - 0x80000000 to 0xA0000000 - 512mb - for kernel data structures, stacks, etc
+    * kseg1 - 0xA0000000 to 0xC0000000 - 512mb - for addressing devices
+    * kseg2 - 0xA0000000 to 0xC0000000 - 512mb - unused
+  * Know how to translate kernel virtual addresses to physical addresses
+* Define __page swapping__ and how it is implemented
+  * resident bit
+  * present bit
+* Know why __page faults__ happen
+* Know about __pace replacement policies__
+  * FIFO
+  * Optimal
+  * LRU
+  * __Clock Replacement*__
+* Define __locality__
+  * __temporal locality__
+  * __spatial locality__
 
-... more to be added soon
+#### [Unit 5: Scheduling](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/scheduling-1up.pdf)
+* Define __Scheduling__ and understand why it's needed
+  * Define __response time__
+  * Define __turnaround time__
+* Understand different scheduling implementations
+  * __First come, first serve (FCFC)__
+  * __Round Robin__
+  * __Shortest Job First__
+  * __Shortet Remaining Time First__
+  * __Multi-level Feedback Queue (MLFQ)*__ 
+  * __Linux Completely Fair Scheduler (CFS)*__
+* Know 2 different ways of scheduling on Multi-Core processors
+* Define __Scalabilility__
+* Define __Cache Affinity__
+* Define __Load Balancing__
+
+#### [Unit 6: Devices and I/O](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/io-1up.pdf)
+* Define device
+* Define bus
+  * Define internal bus
+  * Define peripheral
+* Define bridge
+* Define device register and name 3 types
+  * __Status device register__
+  * __Command device register__
+  * __Data device register__
+* Define device driver
+* Define polling and how to avoid
+* Understand how device drivers can access device registers
+  * __Port-mapped I/O__
+  * __Memory-mapped I/O__
+  * __Program-controlled I/O__
+  * __Direct memory access (DMA)*__
+* High level understanding of common persistent storage devices
+  * Magnetic drums
+  * Hard disks
+  * SSD
+  * Peristant RAM
+* Know how to calculate cost of __hard disk I/O__
+  * Calculate __seek time__
+  * Calculate __rotational latency__
+  * Calculate __transfer time__
+  * __Request Service time = seek time + rotational latency + transfer time__
+* Distinguish between sequential and non-sequential I/O
+* Understand different __disk head scheduling__ algorithms
+  * __First come first serve (FCFC)__
+  * __Shortest Seek Time First (SSTF)__
+  * __Elevator Algorithms (SCAN)*__
+* Basic knowledge of how SSD's work
+
+#### [Unit 7: File Systems](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/filesystems-1up.pdf)
+* Define file
+* Define file system
+  * Define logical file system
+  * Define virtual file system
+  * Define physical file system
+ * Understand basic file operations
+   * Open
+   * Close
+   * Read, write, seek
+   * Get, set
+ * Define directory
+ * Define i-number and i-node
+ * Define hard link
+ * Define mounting
+ * Understand implementation of Very Simple File System (VSFS)
+ * Define superblock
+ * Calculate total space used given file name and inode structure
+ * Calculate total number of reads and writes on inodes for file operations
+ * Define chaining
+ * Define external chaining
+ * Understand where problems can arise in file operations and how to be fault tolerant
+ * Define journaling file system
+
+#### [Unit 8: Virtual Machines](https://www.student.cs.uwaterloo.ca/~cs350/F19/notes/wrapup-1up.pdf)
+* Define virtual machine
+* Define hypervisor
+  * Define Type 1 Hypervisor
+  * Define Type 2 Hypervisor
+* Explain how virtual machine differs from regular machine in terms of
+  * Privilege
+  * Virtual memory
+  * Page tables
+  * I/O and devices
 
 ## Extra Review
-* [Recent Midterms] See piazza.
+* Recent Midterms - See piazza.
 * [Past Midterm Exams](https://www.student.cs.uwaterloo.ca/~cs350/common/old-exams/)
 * [Review Questions Compiled by W10 Students](https://www.student.cs.uwaterloo.ca/~cs350/common/review-questions/CS350-course-review.pdf)
 

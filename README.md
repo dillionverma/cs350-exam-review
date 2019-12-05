@@ -107,7 +107,7 @@ This repo was created to collect and share important Operating System concepts f
   * resident bit
   * present bit
 * Know why __page faults__ happen
-* Know about __pace replacement policies__
+* Know about __page replacement policies__
   * FIFO
   * Optimal
   * LRU

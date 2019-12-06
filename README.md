@@ -101,11 +101,11 @@ This repo was created to collect and share important Operating System concepts f
   * Kernel addresses from 0x80000000 to 0xFFFFFFFF
     * kseg0 - 0x80000000 to 0xA0000000 - 512mb - for kernel data structures, stacks, etc
     * kseg1 - 0xA0000000 to 0xC0000000 - 512mb - for addressing devices
-    * kseg2 - 0xA0000000 to 0xC0000000 - 512mb - unused
+    * kseg2 - 0xC0000000 to 0xFFFFFFFF - 512mb - unused
   * Know how to translate kernel virtual addresses to physical addresses
 * Define __page swapping__ and how it is implemented
-  * resident bit
-  * present bit
+  * Define resident set
+  * Define present bit
 * Know why __page faults__ happen
 * Know about __page replacement policies__
   * FIFO

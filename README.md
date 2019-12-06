@@ -47,8 +47,8 @@ This repo was created to collect and share important Operating System concepts f
     * __Binary Semaphore__
     * __Counting Semaphore__
     * __Barrier Semaphore__
-    * What are mesa-style condition variables? How are they different from Hoare style?
   * __Condition Variables__
+    * What are mesa-style condition variables? How are they different from Hoare style?
 * Deadlocks and techniques for prevention
   * __No Hold and Wait__
   * __Resource Ordering__

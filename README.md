@@ -145,10 +145,12 @@ This repo was created to collect and share important Operating System concepts f
 * Define device driver
 * Define polling and how to avoid
 * Understand how device drivers can access device registers
-  * __Port-mapped I/O__
-  * __Memory-mapped I/O__
-  * __Program-controlled I/O__
-  * __Direct memory access (DMA)*__
+  * Small data transfer
+    * __Port-mapped I/O__
+    * __Memory-mapped I/O__
+  * Large data transfer
+    * __Program-controlled I/O__
+    * __Direct memory access (DMA)*__
 * High level understanding of common persistent storage devices
   * Magnetic drums
   * Hard disks

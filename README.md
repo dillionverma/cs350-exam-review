@@ -90,6 +90,22 @@ This repo was created to collect and share important Operating System concepts f
 
 ... more to be added soon
 
+## Guides
+ 1. [LL and SC](Guides/LLSCMIPS.pdf)
+ 2. [Context Switch](Guides/Context_Switches_and_Switchframe.pdf)
+ 3. [Locks](Guides/Lock_Guide.pdf)
+ 4. [Condition Variable](Guides/Condition_Variable_Guide.pdf)
+ 5. [Virtual Memory](Guides/Virtual_Memory_Guide.pdf)
+ 6. [Disk and Devices](Guides/Disk_Guide.pdf)
+ 7. [File System](Guides/File_System_Guide.pdf)
+
+## In-class Handouts
+ 1. [Threads](Handouts/Threads/)
+ 2. [Synchronization](Handouts/Synchronization/)
+ 3. [Processes](Handouts/Processes/)
+ 4. [Virtual Memory](Handouts/Virtual\Memory/)
+ 5. [File Systems](/Handouts/File\Systems/)
+
 ## Extra Review
 * [Past Midterm Exams](https://www.student.cs.uwaterloo.ca/~cs350/common/old-exams/)
 * [Review Questions Compiled by W10 Students](https://www.student.cs.uwaterloo.ca/~cs350/common/review-questions/CS350-course-review.pdf)

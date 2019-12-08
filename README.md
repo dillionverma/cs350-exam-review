@@ -216,8 +216,8 @@ This repo was created to collect and share important Operating System concepts f
  1. [Threads](Handouts/Threads/)
  2. [Synchronization](Handouts/Synchronization/)
  3. [Processes](Handouts/Processes/)
- 4. [Virtual Memory](Handouts/Virtual\Memory/)
- 5. [File Systems](/Handouts/File\Systems/)
+ 4. [Virtual Memory](Handouts/Virtual%20Memory/)
+ 5. [File Systems](/Handouts/File%20Systems/)
 
 ## Extra Review
 * Recent Midterms - See piazza.

@@ -204,13 +204,14 @@ This repo was created to collect and share important Operating System concepts f
   * I/O and devices
 
 ## Guides
- 1. [LL and SC](Guides/LLSCMIPS.pdf)
- 2. [Context Switch](Guides/Context_Switches_and_Switchframe.pdf)
- 3. [Locks](Guides/Lock_Guide.pdf)
- 4. [Condition Variable](Guides/Condition_Variable_Guide.pdf)
- 5. [Virtual Memory](Guides/Virtual_Memory_Guide.pdf)
- 6. [Disk and Devices](Guides/Disk_Guide.pdf)
- 7. [File System](Guides/File_System_Guide.pdf)
+ 1. [Pointers](Guides/Pointers.pdf)
+ 2. [LL and SC](Guides/LLSCMIPS.pdf)
+ 3. [Context Switch](Guides/Context_Switches_and_Switchframe.pdf)
+ 4. [Locks](Guides/Lock_Guide.pdf)
+ 5. [Condition Variable](Guides/Condition_Variable_Guide.pdf)
+ 6. [Virtual Memory](Guides/Virtual_Memory_Guide.pdf)
+ 7. [Disk and Devices](Guides/Disk_Guide.pdf)
+ 8. [File System](Guides/File_System_Guide.pdf)
 
 ## In-class Handouts
  1. [Threads](Handouts/Threads/)
